@@ -5,7 +5,6 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
     },
     {
       id: 2,
@@ -13,7 +12,6 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
     },
     {
       id: 3,
@@ -21,7 +19,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 4,
@@ -29,7 +27,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 5,
@@ -37,7 +35,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 6,
@@ -45,7 +43,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 7,
@@ -53,7 +51,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 8,
@@ -61,7 +59,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 9,
@@ -69,7 +67,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 10,
@@ -77,7 +75,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 11,
@@ -85,7 +83,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 12,
@@ -93,7 +91,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 13,
@@ -101,7 +99,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 14,
@@ -109,7 +107,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 15,
@@ -117,7 +115,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 16,
@@ -125,7 +123,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 17,
@@ -133,7 +131,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 18,
@@ -141,7 +139,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 19,
@@ -149,7 +147,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
     {
       id: 20,
@@ -157,7 +155,7 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-      harga: 12000000,
+
     },
   ];
   

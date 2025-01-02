@@ -1,0 +1,12 @@
+.judul {
+    margin-top: 20px;
+    font-size: 24px;
+}
+.p {
+    margin-bottom: 20px;
+}
+.containerdokter {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}

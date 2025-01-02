@@ -1,0 +1,48 @@
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 10px 10px 0px black;
+    transform: translateY(-1px) translateX(-1px);
+}
+.foto {
+    height: 250px;
+    width: 100%;
+    min-width: 40px;
+    object-fit: cover;
+    border-bottom: 1px solid black;
+}
+
+.judul {
+    font-size: 18px;
+}
+.tanggal {
+    color: rgb(67, 66, 66);
+    font-size: 14px;
+}
+.kategori {
+    color: rgb(67, 66, 66);
+    font-size: 14px;
+    background-color: #DDFFD2;
+    padding: 10px;
+   
+}
+.judul,
+.tanggal {
+    margin-top: 8px;
+    overflow: hidden;
+    margin: 0 16px;
+
+}
+.tanggal span{
+    font-weight: normal;
+}
+.kategori span{
+    font-weight: normal;
+}

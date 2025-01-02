@@ -1,0 +1,50 @@
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 10px 10px 0px black;
+    transform: translateY(-1px) translateX(-1px);
+}
+.foto {
+    height: 200px;
+    width: 100%;
+    min-width: 40px;
+    object-fit: cover;
+    border-bottom: 1px solid black;
+}
+
+/* Dokter */
+.nama {
+    font-size: 20px;
+    border-bottom: 1px dashed black;
+}
+.pengalaman {
+    color: rgb(67, 66, 66);
+    font-size: 14px;
+    border-bottom: 1px dashed black;
+}
+.kategori {
+    color: rgb(67, 66, 66);
+    font-size: 14px;
+   
+}
+.nama,
+.kategori,
+.pengalaman {
+    margin-top: 8px;
+    overflow: hidden;
+    margin: 0 16px;
+
+}
+.pengalaman span{
+    font-weight: normal;
+}
+.kategori span{
+    font-weight: normal;
+}

@@ -1,0 +1,92 @@
+.kotakContent {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 8px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    align-items: center;
+}
+.cover {
+    height: fit-content;
+    width: 1000px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 100px auto;
+    justify-content: center;
+}
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    width: 225px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    
+}
+.likes {
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+    height: 15px;
+    margin: 5px;
+    width: 15px;
+}
+.btnh{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.back {
+    display: flex;
+    justify-content: end;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 60px;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    border-radius: 8px;
+    padding: 40px 0 50px 0;
+}
+.inHeader{
+    display: flex;
+    background-color: #fff;
+    max-width: 1000px;
+    align-items: center;
+    width: 100%;
+}
+.user {
+    border-radius: 50%;
+    padding: 10px;
+    height: 50px;
+    margin: 10px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    
+}
+.moreContainer {
+    width: fit-cotent;
+}
+.more{
+    width: 250px;
+    margin: 20px;
+    border-radius: 5px;
+}

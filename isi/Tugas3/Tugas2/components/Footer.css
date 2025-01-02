@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 60px;
+    width: fit-content;
+    margin: 10px auto;
+}
+.inner-footer {
+    display: flex;
+    background-color: #fff;
+    max-width: 1366px;
+    align-items: center;
+    width: 100%;
+}
+.inner-footer li a{
+    padding: 0 10px;
+    font-size: 13px;
+
+}
+.inner-footer .logo{
+    text-align: center;
+    font-family: "Sofia", cursive;
+    font-size: 25px;
+    margin-right: 50px;
+
+}
+.icon-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 18px;
+    margin-left: 20px;
+}
+.icon-nav img{
+    width: 18px;
+}

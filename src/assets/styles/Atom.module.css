@@ -1,0 +1,54 @@
+.putihkecil{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    transition: all 0.2s ease-in;
+    font-weight: bold;
+}
+.putihkecil:hover{
+    background-color: #f1f1f1;
+    color: #FF971D;
+}
+
+.orangekecil{
+    background-color: #FF971D;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+.orangekecil:hover{
+    box-shadow: 5px 5px 0px black;
+    transform: translateY(-1px) translateX(-1px);
+}
+
+.orangesedang{
+    background-color: #FF971D;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+.orangesedang:hover{
+    box-shadow: 5px 5px 0px black;
+    transform: translateY(-1px) translateX(-1px);
+}
+
+.input{
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid black;
+}

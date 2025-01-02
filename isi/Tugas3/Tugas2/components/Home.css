@@ -1,0 +1,27 @@
+main {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+}
+.s-con {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 550;
+    border: none;
+    margin: 20px auto 100px auto;
+}
+.copy-f {
+    text-align: left;
+    padding: 20px;
+    width: 1180px;
+    margin: 0 auto;
+    color: gray;
+    font-size: 13px;
+}
+.copy-f span {
+    float: right;
+}

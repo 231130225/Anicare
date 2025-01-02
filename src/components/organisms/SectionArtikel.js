@@ -6,9 +6,9 @@ import Styles from "../../assets/styles/Section.module.css"
 const SectionArtikel = () => {
     return (
         <section className={Styles.container}>
-            <h4 className={Styles.judul}>Rekomendasi Artikel untuk kamu</h4>
+            <h4 className={Styles.judul}>Rekomendasi Artikel untuk kamu<span>Lihat semua</span></h4>
             <p className={Styles.p}>Informasi untuk hewan peliharaan hanya untuk-mu</p>
-            <div className={Styles.containerdokter}>
+            <div className={Styles.containerartikel}>
                 {allArtikel.slice(5,8).map((artikel) => {
                     return (
                         <CardArtikel

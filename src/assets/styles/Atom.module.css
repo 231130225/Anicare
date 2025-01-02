@@ -44,6 +44,21 @@
     transform: translateY(-1px) translateX(-1px);
 }
 
+.bening{
+    background-color: #FFE8D6;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    transition: all 0.2s ease-in;
+    font-weight: bold;
+}
+.bening:hover{
+    background-color: #ead4c3;
+}
+
 .input{
     width: 500px;
     height: 40px;

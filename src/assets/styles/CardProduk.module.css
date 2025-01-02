@@ -11,40 +11,36 @@
     box-shadow: 10px 10px 0px black;
     transform: translateY(-1px) translateX(-1px);
 }
-.foto {
-    height: 200px;
+.gambar {
+    height: 250px;
     width: 100%;
     min-width: 40px;
     object-fit: cover;
     border-bottom: 1px solid black;
 }
 
-/* Dokter */
 .nama {
-    font-size: 20px;
-    border-bottom: 1px dashed black;
+    font-size: 18px;
 }
-.pengalaman {
+.ulasan {
     color: rgb(67, 66, 66);
     font-size: 14px;
-    border-bottom: 1px dashed black;
+}
+.harga{
+    color: #FF971D;
 }
 .kategori {
     color: rgb(67, 66, 66);
     font-size: 14px;
+    background-color: #DDFFD2;
+    padding: 10px;
    
 }
 .nama,
-.kategori,
-.pengalaman {
+.ulasan,
+.harga {
     margin-top: 8px;
     overflow: hidden;
     margin: 0 16px;
 
-}
-.pengalaman span{
-    font-weight: normal;
-}
-.kategori span{
-    font-weight: normal;
 }

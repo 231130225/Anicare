@@ -3,9 +3,14 @@
     justify-self: center;
     align-self: center;
 }
+.iconp{
+    width: 50px;
+    justify-self: center;
+    align-self: center;
+}
 .tombol{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1px solid black;
     width: 319px;
     height: 100px;

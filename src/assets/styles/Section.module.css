@@ -10,3 +10,13 @@
     grid-template-columns: auto auto auto auto;
     gap: 30px;
 }
+.containerartikel {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.judul span{
+    color: #FF971D;
+    float: right;
+    font-size: 18px;
+}

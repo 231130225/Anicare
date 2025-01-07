@@ -1,16 +1,25 @@
 import React from 'react'
 import Styles from "../../assets/styles/Fitur.module.css"
+import { useNavigate } from 'react-router-dom';
 
 const Fitur = () => {
+    const navigate = useNavigate();
+
+    const dokter = () => {
+      navigate('/dokter');
+    };
+    const store = () => {
+      navigate('/store');
+    };
   return (
     <div className={Styles.container}>
         <h4 className={Styles.judul}>Fitur-fitur menarik kami</h4>
         <div className={Styles.containertombol}>
-            <button className={Styles.tombol}>
+            <button className={Styles.tombol} onClick={dokter}>
                 <p>Konsultasi</p>
                 <img className={Styles.icon} src='https://cdn-icons-png.flaticon.com/512/2138/2138508.png'/>
             </button>
-            <button className={Styles.tombol}>
+            <button className={Styles.tombol} onClick={store}>
                 <p>Store</p>
                 <img className={Styles.icon} src='https://cdn-icons-png.flaticon.com/512/7438/7438490.png'/>
             </button>

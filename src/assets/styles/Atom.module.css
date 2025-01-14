@@ -12,6 +12,7 @@
 .putihkecil:hover{
     background-color: #f1f1f1;
     color: #FF971D;
+    cursor: pointer;
 }
 
 .orangekecil{
@@ -27,6 +28,7 @@
 .orangekecil:hover{
     box-shadow: 5px 5px 0px black;
     transform: translateY(-1px) translateX(-1px);
+    cursor: pointer;
 }
 
 .orangesedang{
@@ -43,6 +45,37 @@
     box-shadow: 5px 5px 0px black;
     transform: translateY(-1px) translateX(-1px);
 }
+.putihsedang{
+    background-color: #dad6d1;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+.putihsedang:hover{
+    box-shadow: 2px 1px 0px black;
+    transform: translateY(-1px) translateX(-1px);
+    cursor: pointer;
+}
+.orangeUbah{
+    background-color: #FF971D;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+.orangeUbah:hover{
+    box-shadow: 2px 1px 0px black;
+    transform: translateY(-1px) translateX(-1px);
+    cursor: pointer;
+}
+
 
 .bening{
     background-color: #FFE8D6;

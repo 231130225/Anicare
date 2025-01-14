@@ -1,21 +1,22 @@
 const allProducts = [
     {
       id: 1,
-      nama: "GIBO makanan anjing kucing kering dewasa 12LB",
-      gambar: "https://s.alicdn.com/@sc04/kf/H585416c9c2ee4ae98c5f4f6b9829d5b9t.png_720x720q50.pngg",
+      nama: "Chicken Cold Pressed Natural Grain Free Dry Dog Food | Forthglade ",
+      gambar: "https://i.pinimg.com/736x/e4/e7/d1/e4e7d15741be68b1660f8415f6e443dd.jpg",
       kategori: "makanan",
-      deskripsi: "Tempat asal: Hebei, China. Lama Penyimpanan: 18 bulan. Nama merek GIBO. Unit Berat 12LB/tas. Jenis Ukuran Kecil. Keturunan, Tambahan Small & Toy Dog, Raksasa Ras, Besar Keturunan, Medium Keturunan Diet Khusus Grain Leather, Protein Tinggi, Sensitif Pencernaan, Terbatas Bahan Makanan (Tutup)",
+      deskripsi: "Komposisi : Ayam 32,5% (17,5% ayam segar, 15% ayam giling kering), Ubi Jalar Kering (28%), Kacang Polong Kering, Lemak Ayam, Gelatin*, Ampas Bit Kering*†, Buah Kering (2,3%: apel, pir, blueberry, cranberry), Minyak Salmon (1%)†, Ragi Bir*, Bahan Herbal Kering (0,6%: Adas, Jelatang, Bunga Dandelion), Mannan-oligosakarida, Bubuk Telur*†, Ekstrak Chicory*†, Rumput Laut Kering*, Kamomil*, Minyak Biji Rami*†, Glukosamin (300mg/kg), Kondroitin Sulfat (300mg/kg). Singkong",
       ulasan: 250,
-      harga: 50000,
+      harga: 1500000 ,
     },
     {
       id: 2,
-      nama: "GIBO makanan anjing kucing kering dewasa 12LB",
-      gambar: "https://s.alicdn.com/@sc04/kf/H585416c9c2ee4ae98c5f4f6b9829d5b9t.png_720x720q50.pngg",
+      nama: "Whiskas Junior Ikan Kembung | Whiskas",
+      gambar: "https://cdn.onemars.net/sites/whiskas_id_xGoUJ_mwh5/image/whiskas-3d-1-1kg-fop-junior-mackerel-2_1713959458930_1720681539204_1723455410001.webp",
       kategori: "makanan",
+      komposisi : "Sereal (Jagung dan/atau Beras), Unggas dan Hasil Sampingan Unggas, Minyak (Stearin Kelapa Sawit dan/atau Ikan), Tepung Kedelai, Hidrolisat Hewan, Tepung Gandum, Mineral, Gluten Jagung, Vitamin, Asam Amino, Dinding Sel Ragi, Bahan Pengawet Makanan, Susu Bubuk, Perisa, Kolostrum, Ekstrak Teh Hijau" ,
       deskripsi: "Tempat asal: Hebei, China. Lama Penyimpanan: 18 bulan. Nama merek GIBO. Unit Berat 12LB/tas. Jenis Ukuran Kecil. Keturunan, Tambahan Small & Toy Dog, Raksasa Ras, Besar Keturunan, Medium Keturunan Diet Khusus Grain Leather, Protein Tinggi, Sensitif Pencernaan, Terbatas Bahan Makanan (Tutup)",
       ulasan: 250,
-      harga: 50000,
+      harga: 70000,
     },
     {
       id: 3,
@@ -41,7 +42,7 @@ const allProducts = [
       gambar: "https://s.alicdn.com/@sc04/kf/H585416c9c2ee4ae98c5f4f6b9829d5b9t.png_720x720q50.pngg",
       kategori: "makanan",
       deskripsi: "Tempat asal: Hebei, China. Lama Penyimpanan: 18 bulan. Nama merek GIBO. Unit Berat 12LB/tas. Jenis Ukuran Kecil. Keturunan, Tambahan Small & Toy Dog, Raksasa Ras, Besar Keturunan, Medium Keturunan Diet Khusus Grain Leather, Protein Tinggi, Sensitif Pencernaan, Terbatas Bahan Makanan (Tutup)",
-      ulasan: 250,
+      ulasan:250,
       harga: 50000,
     },
     {

@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+.ker-con{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000 ;
+    display: flex;
+    width: 100%;
+    background-color: orange;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.kiri{
+    display: flex;
+    align-items: center;
+}
+
+.kiri h2{
+    margin-right: 20px ;
+    
+}
+
+.kiri .batas{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: transparent;
+    height: 7vh;
+    width: 2px;
+    margin-right: 20px;
+}

@@ -1,0 +1,42 @@
+body{
+    margin : 40px;
+}
+
+.topSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(233, 198, 198, 0.2);
+    padding: 1rem;
+}
+.leftSection img{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #3e3e3e;
+
+}
+.leftSection{
+    width: 100%;
+    margin-right: 15px;
+}
+.btn{
+    padding: 10px 0px;
+}
+.btn button{
+    margin-right: 10px;
+}
+.btn button:hover{
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.rightSection .top-side h2{
+    padding: 5x 20px;
+    font-size: 1.5rem;
+    background-color: #cecbcb;
+    color: rgb(252, 103, 4);
+}
+.bottom-side p{
+    font-size: 13px;
+}

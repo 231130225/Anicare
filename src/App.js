@@ -6,7 +6,7 @@ import "./App.css"
 import Dokter from './pages/Dokter';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-
+import CheckOut from './pages/CheckOut';
 const App = () => {
   return (
     <Routes>
@@ -15,6 +15,7 @@ const App = () => {
       <Route path='/dokter' element={<Dokter />} />
       <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<Signup />} />
+      <Route path='/payments' element={<CheckOut />}/>
     </Routes>
   )
 

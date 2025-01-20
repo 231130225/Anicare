@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import Styles from '../assets/styles/Atom.module.css';
 import "../assets/styles/ProdukDetails.css";
-
+import CheckOut from './CheckOut';
+import { useNavigate } from 'react-router-dom';
 
 const ProductDetails = ({ product }) => {
     // const [Item,Setitem]= useState(0)
     // const [Harga,setHarga] = useState(0)
     // const[Invisible, setInvisible] = useState(false)
     // const Total = Item * Harga
-
+    const navigate = useNavigate()
+    const payments =() =>{
+        navigate("/payments")
+    }
     if (!product) {
         return <div className="error">Product not found!</div>;
     }
@@ -29,7 +33,7 @@ const ProductDetails = ({ product }) => {
                         <p>{product.deskripsi}</p>
                     </div>
                     <div className="btn">
-                        <button className={Styles.orangeUbah}>Beli Sekarang</button>
+                        <button className={Styles.orangeUbah} onClick={payments}>Beli Sekarang</button>
                         {/* <button className={Styles.putihsedang} onClick={handleClick}>bahkan ke keranjang</button> */}
                         {/* {Invisible ? <Keranjang item={Item} total={Total} /> : ""} */}
                     </div>

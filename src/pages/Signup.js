@@ -8,7 +8,7 @@ const Signup = () => {
         <div>
         <div className={Styles.vcontainerr}>
             <video className={Styles.video} autoPlay muted loop>
-            <source src='https://cdn.dribbble.com/userupload/10673562/file/original-f844221dc4f375489281f5a09001e485.mp4'/>
+                <source src='https://cdn.dribbble.com/userupload/10673562/file/original-f844221dc4f375489281f5a09001e485.mp4'/>
             </video>
         </div>
         <div  className={Styles.container} style={{top:"30%"}}>

@@ -44,6 +44,7 @@
 .orangesedang:hover{
     box-shadow: 5px 5px 0px black;
     transform: translateY(-1px) translateX(-1px);
+    cursor: pointer;
 }
 .putihsedang{
     background-color: #dad6d1;

@@ -1,17 +1,20 @@
 const allDokter = [
     {
       id: 1,
-      nama: "dr.andi",
+      nama: "Dr.andi",
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
     },
     {
       id: 2,
       nama: "dr.andi",
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
-      pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
     },
     {
       id: 3,
@@ -19,6 +22,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -26,8 +31,8 @@ const allDokter = [
       nama: "dr.andi",
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
-      pengalaman: "3 Tahun",
-
+      pengalaman: "3 Tahun",harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
     },
     {
       id: 5,
@@ -35,7 +40,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
-
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
     },
     {
       id: 6,
@@ -43,6 +49,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -51,6 +59,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -59,6 +69,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -67,6 +79,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -75,6 +89,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -83,6 +99,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -91,6 +109,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -99,6 +119,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -107,6 +129,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -115,6 +139,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -123,6 +149,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -131,6 +159,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -139,6 +169,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -147,6 +179,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
     {
@@ -155,6 +189,8 @@ const allDokter = [
       foto: "https://static.vecteezy.com/system/resources/previews/044/846/367/non_2x/handsome-man-doctor-standing-holding-tablet-on-isolated-transparent-background-free-png.png",
       kategori: "anjing, kucing",
       pengalaman: "3 Tahun",
+      harga: 50000,
+      alamat_praktik: "Jl. Karya Bakti No.8AA, Pangkalan Masyhur, Kec. Medan Johor, Kota Medan, Sumatera Utara 20146"
 
     },
   ];

@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Styles from '../assets/styles/Atom.module.css';
 import "../assets/styles/ProdukDetails.css";
-import CheckOut from './CheckOut';
 import { useNavigate } from 'react-router-dom';
 
 const ProductDetails = ({ product }) => {

@@ -13,16 +13,14 @@ const Login = () => {
           </div>
           <div className={Styles.container}>
             <h2>Sign in to <img className={Styles.logologin} src={logo} alt='logo' /></h2>
-            <button className={Styles.btnp} style={{ paddingLeft: '50px' }}> <img style={{ width: "15px", position: "absolute", left: "120px" }} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png' /> sign in with google</button>
-            <p style={{ color: "gray", padding: "10px 0" , textAlign: "center"}}>or sign in with email</p>
-            <form>
-              <h5 style={{ paddingTop: "10px" }}>Username or email</h5>
+            <div>
+              <h5 style={{ paddingTop: "10px" }}>Username</h5>
               <input className={Styles.in}></input>
-              <h5 style={{ paddingTop: "10px" }}>Password <span style={{ fontWeight: "normal", textDecoration: "underline", float: "right" }}>Forgot?</span></h5>
-              <input className={Styles.in}></input>
+              <h5 style={{ paddingTop: "10px" }}>Password <Link to="/forgot" style={{ textDecoration: "underline", cursor: "pointer", fontWeight:"normal", color:"black", float:"right"}}>Forgot ?</Link></h5>
+              <input className={Styles.in} type='password'></input>
               <br />
               <button type='submit' className={Styles.btnh}>Sign In</button>
-            </form>
+            </div>
             <p>Don't have an account? <Link to="/signup" style={{ textDecoration: "underline", cursor: "pointer", color: "black" }}>Sign up</Link></p>
           </div>
         </div>

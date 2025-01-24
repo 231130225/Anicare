@@ -13,11 +13,16 @@ const Signup = () => {
         </div>
         <div  className={Styles.container} style={{top:"30%"}}>
             <h2>Sign Up to <img className={Styles.logosign} src={logo} alt='logo' /></h2>
-            <button className={Styles.btnh} style={{paddingLeft:'50px'}}> <img style={{width:"15px", position:"absolute", left:"120px"}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png'/> sign up with google</button>
-            <p style={{color:"gray", padding:"10px 0", textAlign:"center"}}>or</p>
-            <button type='submit' className={Styles.btnp}>Continue with email</button>
-            <p style={{width:"370px", fontSize:"12px", margin:"20px"}}>By creating an account you agree with our <span style={{textDecoration:"underline"}}>Terms of Service, Privacy Policy,</span> and our default <span style={{textDecoration:"underline"}}>Notification Settings.</span></p>
-            <p style={{fontSize:"14px", margin:"10px"}}>Already have an account? <Link to="/login" style={{textDecoration:"underline", cursor:"pointer", color:"black"}}>Sign in</Link></p>
+            <div>
+              <h5 style={{ paddingTop: "10px" }}>Username</h5>
+              <input className={Styles.in}></input>
+              <h5 style={{ paddingTop: "10px" }}>Password</h5>
+              <input className={Styles.in} type='password'></input>
+              <br />
+              <button type='submit' className={Styles.btnh}>Sign Up</button>
+            </div>
+            <p style={{width:"370px", fontSize:"12px"}}>By creating an account you agree with our <span style={{textDecoration:"underline"}}>Terms of Service, Privacy Policy,</span> and our default <span style={{textDecoration:"underline"}}>Notification Settings.</span></p>
+            <p style={{fontSize:"14px", marginTop:"10px"}}>Already have an account? <Link to="/login" style={{textDecoration:"underline", cursor:"pointer", color:"black"}}>Sign in</Link></p>
         </div>
         </div>
      )

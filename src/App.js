@@ -8,6 +8,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import CheckOut from './pages/CheckOut';
 import ConfirmKonsul from './pages/ConfirmKonsul';
+import Forgot from './pages/Forgot';
 const App = () => {
   return (
     <Routes>
@@ -15,6 +16,7 @@ const App = () => {
       <Route path='/store' element={<Store />} />
       <Route path='/dokter' element={<Dokter />} />
       <Route path='/login' element={<Login />} />
+      <Route path='/forgot' element={<Forgot />} />
       <Route path='/signup' element={<Signup />} />
       <Route path='/payments' element={<CheckOut />}/>
       <Route path='/confirm' element={<ConfirmKonsul />}/>

@@ -12,7 +12,7 @@
     margin: 0 auto;
     width: fit-content;
     position: absolute;
-    top: 18%;
+    top: 30%;
     left: 550px;
 }
 .in{
@@ -52,12 +52,12 @@
 .logosign{
     width: 200px;
     position: absolute;
-    top: -8%;
+    top: -7.1%;
     left: 24%;
 }
 .logologin{
     width: 200px;
     position: absolute;
-    top: -5.5%;
+    top: -8%;
     left: 22%;
 }

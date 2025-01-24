@@ -1,0 +1,48 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+.popupinner{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 32px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+}
+.container button {
+    width: 300px;
+    display: grid;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.batal{
+    background-color: #FF971D;
+    color: white;
+    border: 1px solid #FF971D;
+}
+.logout{
+    background-color: white;
+    color: #FF971D;
+    border: 1px solid #FF971D;
+}
+.delete{
+    background-color: rgb(255, 92, 92);
+    color: white;
+    border: 1px solid #FF971D;
+}

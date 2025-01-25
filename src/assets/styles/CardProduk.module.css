@@ -21,6 +21,12 @@
 
 .nama {
     font-size: 18px;
+    width: 400px;
+    background-color: #DDFFD2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
 }
 .ulasan {
     color: rgb(67, 66, 66);

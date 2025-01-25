@@ -11,40 +11,15 @@
     z-index: 5;
 }
 .popupinner{
-    position: fixed;
-    top: 0;
-    right: 0;
+    position: relative;
     padding: 32px;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     background-color: white;
 }
 .container{
-    text-align: center;
+    text-align: justify;
     justify-content: center;
-}
-.container button {
-    width: 300px;
-    display: grid;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 50px;
-    font-weight: bold;
-}
-.batal{
-    background-color: #FF971D;
-    color: white;
-    border: 1px solid #FF971D;
-}
-.logout{
-    background-color: white;
-    color: #FF971D;
-    border: 1px solid #FF971D;
-}
-.delete{
-    background-color: rgb(255, 92, 92);
-    color: white;
-    border: 1px solid #FF971D;
 }
 
 .close{
